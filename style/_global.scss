@@ -1,0 +1,33 @@
+body{
+    background-color: $darkBlue;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: $white;
+}
+ul{
+    list-style: none;
+    color: $white;
+}
+li{
+
+}
+a{
+    text-decoration: none;
+    color: $white;
+    
+}
+
+.hide-on-mobile{
+    @include breakpoint-down('small'){
+        display: none;
+    }
+}
+.hide-on-desktop{
+@include breakpoint-up('medium'){
+    display: none;
+}
+}

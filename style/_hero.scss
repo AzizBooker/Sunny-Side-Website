@@ -1,0 +1,17 @@
+.hero {
+  height: 100vh;
+
+  &_heading {
+    position: relative;
+    top: 30%;
+    text-align: center;
+  }
+
+  &_image {
+
+    img {
+
+      text-align: center;
+    }
+  }
+}
