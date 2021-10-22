@@ -57,15 +57,24 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
   color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 h1 {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  letter-spacing: .5rem;
+}
+
+h2 {
   font-size: 2rem;
   font-family: "Fraunces", serif;
   color: #23303e;
 }
 
 p {
+  color: #5a636c;
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
 }
@@ -91,6 +100,17 @@ a {
   margin: 0 auto;
 }
 
+.center-mobile-image {
+  position: relative;
+  right: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50%;
+  width: 100vw;
+}
+
 @media (max-width: 39.9375em) {
   .hide-on-mobile {
     display: none;
@@ -101,6 +121,30 @@ a {
   .hide-on-desktop {
     display: none;
   }
+}
+
+.fullbody-section {
+  height: 105vh;
+  padding-bottom: 1rem;
+  background-color: white;
+}
+
+.section-text-styles {
+  position: relative;
+  top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav {
@@ -151,42 +195,13 @@ nav #hamburger-menu {
   text-align: center;
 }
 
-.section2 {
-  height: 105vh;
-  padding-bottom: 1rem;
-}
-
-.section2_text {
-  position: relative;
-  top: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.section2 h1, .section2 p {
+.section2 h2, .section2 p {
   text-align: center;
   padding-bottom: 1.5rem;
 }
 
-.section2 img {
-  position: relative;
-  right: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 50%;
-  width: 100vw;
+.section3 h2, .section3 p {
+  text-align: center;
+  padding-bottom: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

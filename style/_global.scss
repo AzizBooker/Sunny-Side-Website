@@ -1,18 +1,27 @@
 body{
     background-color: $darkBlue;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: $marginVertical;
+    margin-bottom: $marginVertical;
     overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6,p{
     color: $white;
+    margin-left: $marginVertical;
+    margin-right: $marginVertical;
+
 }
 h1{
+    font-family: $fontFraunces;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+h2{
     font-size: 2rem;
     font-family:$fontFraunces;
     color:$veryDarkDesBlue ;
 }
 p{
+    color:$grayishBlue;
     font-size: 1rem;
     font-family: $fontBarlow;
 }
@@ -35,8 +44,19 @@ a{
 
     
 }
+
 .center{
     margin: 0 auto;
+}
+.center-mobile-image{ //Centers a mobile image if contained within a blocl level element
+     position: relative;
+        right: 0%;
+       // display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        height: 50%;
+        width: 100vw;
 }
 
 .hide-on-mobile{
@@ -48,4 +68,20 @@ a{
 @include breakpoint-up('medium'){
     display: none;
 }
+}
+
+
+//! This Project Specfic Helper CLasses
+.fullbody-section{
+    height: 105vh;
+    padding-bottom: 1rem;
+    background-color: $white;
+}
+.section-text-styles{
+    position: relative;
+        top: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }

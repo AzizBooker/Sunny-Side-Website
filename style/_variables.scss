@@ -1,3 +1,4 @@
+//! Colors
 $softRed:hsl(7, 99%, 70%);
 $yellow:hsl(51, 100%, 49%);
 $darkDesCyan:hsl(167, 40%, 24%);
@@ -6,6 +7,7 @@ $darkModCyan:hsl(168, 34%, 41%);
 
 
 $white:hsl(0, 0%, 100%);
+$grayishBlue:hsl(213, 9%, 39%);
 $veryDarkDesBlue:hsl(212, 27%, 19%);
 $darkGrayishBlue:hsl(232, 10%, 55%);
 $veryDarkGrayishBlue:hsl(213, 9%, 39%);
@@ -14,3 +16,6 @@ $veryDarkGrayishBlue:hsl(213, 9%, 39%);
 
 $fontBarlow: 'Barlow', sans-serif;
 $fontFraunces:'Fraunces', serif;
+
+//! Margins
+$marginVertical:1rem;
