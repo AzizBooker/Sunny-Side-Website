@@ -51,13 +51,31 @@ table {
 body {
   background-color: #19536b;
   margin-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
   margin-bottom: 1rem;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  color: #23303e;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  color: #23303e;
+  font-size: 1.2rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  border-bottom: solid #fad400 10px;
 }
 
 ul {
@@ -67,7 +85,10 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 @media (max-width: 39.9375em) {
@@ -83,6 +104,8 @@ a {
 }
 
 nav {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +126,17 @@ nav .nav_links {
       justify-content: space-around;
 }
 
+nav a, nav li {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  margin-right: 1rem;
+  border-bottom: none;
+}
+
+nav #hamburger-menu {
+  cursor: pointer;
+}
+
 .hero {
   height: 100vh;
 }
@@ -115,5 +149,44 @@ nav .nav_links {
 
 .hero_image img {
   text-align: center;
+}
+
+.section2 {
+  height: 105vh;
+  padding-bottom: 1rem;
+}
+
+.section2_text {
+  position: relative;
+  top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 h1, .section2 p {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.section2 img {
+  position: relative;
+  right: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50%;
+  width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */
