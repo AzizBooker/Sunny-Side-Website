@@ -1,0 +1,28 @@
+.section4{
+    &_text{
+        transform: translateY(-30vh);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            padding-bottom: 1rem;
+            margin-right: $marginVertical;
+            margin-left: $marginVertical;
+        }
+        p{
+            margin-left: $marginVertical;
+            margin-right: $marginVertical;
+        }
+    }
+    img{
+        position: relative;
+        right: 0%;
+        top:0%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        height: 105vh;
+        width: 100vw;
+    }
+}

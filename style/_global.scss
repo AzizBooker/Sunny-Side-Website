@@ -74,11 +74,11 @@ a{
 //! This Project Specfic Helper CLasses
 .fullbody-section{
     height: 105vh;
-    padding-bottom: 1rem;
+    width: 100vw;
     background-color: $white;
 }
 .section-text-styles{
-    position: relative;
+       position: relative;
         top: 15%;
         display: flex;
         flex-direction: column;
