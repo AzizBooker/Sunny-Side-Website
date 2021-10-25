@@ -1,21 +1,21 @@
 .section5{
-    
- &_text{
-    transform: translateY(-30vh);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h2{
-        padding-bottom: 1rem;
-        margin-right: $marginVertical;
-        margin-left: $marginVertical;
+    &_text{
+        transform: translateY(-30vh);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            padding-bottom: 1rem;
+            margin-right: $marginVertical;
+            margin-left: $marginVertical;
+        }
+        p{
+            margin-left: $marginVertical;
+            margin-right: $marginVertical;
+        }
     }
-    p{
-        margin-left: $marginVertical;
-        margin-right: $marginVertical;
-    }
-}
+
 img{
     position: relative;
     right: 0%;
