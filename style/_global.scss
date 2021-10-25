@@ -1,6 +1,5 @@
 body{
     background-color: $darkBlue;
-    margin-top: $marginVertical;
     margin-bottom: $marginVertical;
     overflow-x: hidden;
 }
@@ -73,9 +72,16 @@ a{
 
 //! This Project Specfic Helper CLasses
 .fullbody-section{
-    height: 105vh;
+    height: 100vh;
+    padding-bottom: 5vh;
     width: 100vw;
     background-color: $white;
+}
+.first-full-viewport{
+    background-image: url('../images/mobile/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .section-text-styles{
        position: relative;

@@ -50,7 +50,6 @@ table {
 
 body {
   background-color: #19536b;
-  margin-top: 1rem;
   margin-bottom: 1rem;
   overflow-x: hidden;
 }
@@ -124,9 +123,17 @@ a {
 }
 
 .fullbody-section {
-  height: 105vh;
+  height: 100vh;
+  padding-bottom: 5vh;
   width: 100vw;
   background-color: white;
+}
+
+.first-full-viewport {
+  background-image: url("../images/mobile/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-text-styles {
@@ -148,6 +155,8 @@ a {
 }
 
 nav {
+  margin-top: 0rem;
+  padding-top: 1rem;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
   display: -webkit-box;
@@ -186,7 +195,7 @@ nav #hamburger-menu {
 }
 
 .hero_heading {
-  position: relative;
+  position: absolute;
   top: 30%;
   text-align: center;
 }
