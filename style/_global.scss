@@ -69,8 +69,32 @@ a{
 }
 }
 
+.profile-pic{
+    display: block;
+    border-radius: 10rem;
+    width: 4rem;
+    margin: 0 auto;
+    margin-top: $marginVertical;
+    margin-bottom: $marginVertical;
+}
+
+
 
 //! This Project Specfic Helper CLasses
+.testimonial-quote{
+    text-align: center;
+    margin-bottom: $marginVertical
+}
+.testimonial-author{
+    text-align: center;
+    color: $veryDarkDesBlue;
+    &-title{
+        margin-top: .3rem
+        ;
+        text-align: center;
+        color: $darkGrayishBlue;
+    }
+}
 .fullbody-section{
     height: 100vh;
     padding-bottom: 5vh;

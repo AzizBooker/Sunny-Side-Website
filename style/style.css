@@ -122,6 +122,31 @@ a {
   }
 }
 
+.profile-pic {
+  display: block;
+  border-radius: 10rem;
+  width: 4rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-quote {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-author {
+  text-align: center;
+  color: #23303e;
+}
+
+.testimonial-author-title {
+  margin-top: .3rem;
+  text-align: center;
+  color: #818498;
+}
+
 .fullbody-section {
   height: 100vh;
   padding-bottom: 5vh;
@@ -251,7 +276,7 @@ nav #hamburger-menu {
   margin-right: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 105vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -294,5 +319,29 @@ nav #hamburger-menu {
      object-fit: cover;
   height: 105vh;
   width: 100vw;
+}
+
+.testimonials {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.testimonials .testimonial-item {
+  margin-bottom: 2rem;
+}
+
+.testimonials h2 {
+  color: #5a636c;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.testimonials h3 {
+  font-family: "Fraunces", serif;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
