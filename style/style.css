@@ -239,9 +239,14 @@ nav #hamburger-menu {
   padding-bottom: 1.5rem;
 }
 
+.section4 {
+  background-image: url("../images/mobile/image-graphic-design.jpg");
+  height: 100vh;
+}
+
 .section4_text {
-  -webkit-transform: translateY(-30vh);
-          transform: translateY(-30vh);
+  -webkit-transform: translateY(-40vh);
+          transform: translateY(-40vh);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -280,9 +285,13 @@ nav #hamburger-menu {
   width: 100vw;
 }
 
+.section5 {
+  height: 100vh;
+}
+
 .section5_text {
-  -webkit-transform: translateY(-30vh);
-          transform: translateY(-30vh);
+  -webkit-transform: translateY(-40vh);
+          transform: translateY(-40vh);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +332,7 @@ nav #hamburger-menu {
 
 .testimonials {
   background-color: white;
-  padding-top: 1rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
 }
 

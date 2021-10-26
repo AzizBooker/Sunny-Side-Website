@@ -1,6 +1,8 @@
 .section4{
+    background-image: url('../images/mobile/image-graphic-design.jpg');
+    height: 100vh;
     &_text{
-        transform: translateY(-30vh);
+        transform: translateY(-40vh);
         display: flex;
         flex-direction: column;
         justify-content: center;
