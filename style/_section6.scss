@@ -1,0 +1,10 @@
+.section6{
+    display: flex;
+    justify-content: center;
+
+    &-image-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
