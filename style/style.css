@@ -50,7 +50,6 @@ table {
 
 body {
   background-color: #19536b;
-  margin-bottom: 1rem;
   overflow-x: hidden;
 }
 
@@ -93,6 +92,8 @@ ul {
 
 a {
   text-decoration: none;
+  -webkit-transition: ease-in-out 100ms;
+  transition: ease-in-out 100ms;
 }
 
 .center {
@@ -236,6 +237,7 @@ nav #hamburger-menu {
 
 .hero_heading {
   position: absolute;
+  width: 100%;
   top: 30%;
   text-align: center;
 }
@@ -349,6 +351,7 @@ nav #hamburger-menu {
   background-color: white;
   padding-top: 5rem;
   padding-bottom: 1rem;
+  width: 100vw;
 }
 
 .testimonials .testimonial-item {
@@ -386,5 +389,62 @@ nav #hamburger-menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+  background-color: #458c7e;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 100%;
+  width: 100vw;
+}
+
+.footer p {
+  color: #25564b;
+}
+
+.footer a {
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+  color: #25564b;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  border: none;
+}
+
+.footer a:hover {
+  color: #2e6b5e;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-icons img {
+  cursor: pointer;
+  padding-right: .8rem;
+  padding-left: .8rem;
+}
+
+.footer img {
+  margin-bottom: 1rem;
+  color: #25564b;
 }
 /*# sourceMappingURL=style.css.map */

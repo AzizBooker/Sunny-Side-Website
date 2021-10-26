@@ -1,0 +1,47 @@
+.footer{
+    text-align: center;
+ background-color:$darkModCyan;
+ padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+ height:100% ;
+ width: 100vw;
+
+    p{
+        color: $darkDesCyan;
+    }
+    a{
+            font-family: $fontBarlow;
+            font-weight: bold;
+            color: $darkDesCyan;
+            margin-bottom: $marginVertical;
+            text-decoration: none;
+            border:none;
+            &:hover{
+                color: $darkDesCyanHover;
+            }
+        }
+    &-links{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+        
+        
+     
+    }
+    &-icons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        img{cursor: pointer;
+            padding-right: .8rem;
+            padding-left: .8rem;
+        }
+
+    }
+   
+    img{
+        margin-bottom: $marginVertical;
+        color: $darkDesCyan;
+    }
+}
